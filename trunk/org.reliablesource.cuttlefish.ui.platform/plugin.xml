@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.reliablesource.cuttlefish.ui.platform.views.View"
+            id="org.reliablesource.cuttlefish.ui.platform.views.View"
+            name="Friends">
+      </view>
+      <view
+            class="org.reliablesource.cuttlefish.ui.platform.views.WallView"
+            id="org.reliablesource.cuttlefish.ui.platform.views.WallView"
+            name="Wall"/>
+      <view
+            class="org.reliablesource.cuttlefish.ui.platform.views.GroupsView"
+            id="org.reliablesource.cuttlefish.ui.platform.views.GroupsView"
+            name="Groups"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="org.reliablesource.cuttlefish.ui.platform.perspectives.Perspective"
+            id="org.reliablesource.cuttlefish.ui.platform.perspectives.Perspective"
+            name="Cuttlefish">
+      </perspective>
+
+   </extension>
+</plugin>

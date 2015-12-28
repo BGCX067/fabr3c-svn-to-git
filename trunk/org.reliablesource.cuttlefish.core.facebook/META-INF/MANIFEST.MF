@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Facebook Core Model Plug-in
+Bundle-SymbolicName: org.reliablesource.cuttlefish.core.facebook
+Bundle-Version: 1.0.0
+Bundle-ClassPath: JSON.jar,
+ BrowserLauncher2-10rc4.jar
+Bundle-Vendor: Reliable Source, Inc.
+Export-Package: edu.stanford.ejalbert;uses:="edu.stanford.ejalbert.exceptionhandler,net.sf.wraplog",
+ edu.stanford.ejalbert.exception,
+ edu.stanford.ejalbert.exceptionhandler,
+ edu.stanford.ejalbert.launching;uses:="net.sf.wraplog",
+ edu.stanford.ejalbert.launching.macos;uses:="edu.stanford.ejalbert.launching",
+ edu.stanford.ejalbert.launching.misc;uses:="edu.stanford.ejalbert.launching,net.sf.wraplog",
+ edu.stanford.ejalbert.launching.windows;uses:="edu.stanford.ejalbert.launching,net.sf.wraplog",
+ edu.stanford.ejalbert.testing;uses:="net.sf.wraplog,javax.swing",
+ net.sf.wraplog,
+ org.json
+Eclipse-LazyStart: false

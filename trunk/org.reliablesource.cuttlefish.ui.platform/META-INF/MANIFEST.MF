@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cuttlefish Platform Plug-in
+Bundle-SymbolicName: org.reliablesource.cuttlefish.ui.platform;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.reliablesource.cuttlefish.ui.platform.Activator
+Bundle-Vendor: Reliable Source, Inc.
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.reliablesource.client.ui,
+ org.reliablesource.model.core,
+ org.reliablesource.cuttlefish.core.facebook,
+ org.reliablesource.cuttlefish.core,
+ org.reliablesource.client.ui.workbench
+Eclipse-LazyStart: true
+Export-Package: org.reliablesource.cuttlefish.ui.platform,
+ org.reliablesource.cuttlefish.ui.platform.perspectives,
+ org.reliablesource.cuttlefish.ui.platform.viewers,
+ org.reliablesource.cuttlefish.ui.platform.views

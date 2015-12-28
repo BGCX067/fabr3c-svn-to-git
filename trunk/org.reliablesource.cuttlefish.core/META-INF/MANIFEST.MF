@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cuttlefish Core Plug-in
+Bundle-SymbolicName: org.reliablesource.cuttlefish.core; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Reliable Source, Inc.
+Require-Bundle: org.eclipse.core.runtime,
+ org.reliablesource.model.core
+Eclipse-LazyStart: false
+Export-Package: org.reliablesource.cuttlefish.core.model

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         id="org.reliablesource.cuttlefish.product.workbench.product"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="org.reliablesource.cuttlefish.product.workbench.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="org.reliablesource.cuttlefish.product.workbench.product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.reliablesource.cuttlefish.product.workbench.product"
+            name="Cuttlefish">
+      </product>
+   </extension>
+
+</plugin>

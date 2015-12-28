@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: org.reliablesource.client.ui.workbench
+Bundle-Version: 1.0.0
+Bundle-Activator: org.reliablesource.client.ui.workbench.Activator
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.reliablesource.client.ui
+Eclipse-LazyStart: false
+Export-Package: org.reliablesource.client.ui.workbench,
+ org.reliablesource.client.ui.workbench.views

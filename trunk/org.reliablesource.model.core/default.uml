@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_GoFncVE_EdyHu5yDXvMdnQ" name="org.reliablesource.model.core">
+  <elementImport xmi:id="_SnCswFE_EdyHu5yDXvMdnQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_O-lYUFE_EdyHu5yDXvMdnQ" name="IDisposable"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GdPM4FFAEdyHu5yDXvMdnQ" name="Interface"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_JCyS0FFAEdyHu5yDXvMdnQ" name="dependency"/>
+</uml:Package>

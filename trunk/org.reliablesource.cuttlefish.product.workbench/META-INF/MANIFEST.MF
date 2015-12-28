@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cuttlefish Workbench Product
+Bundle-SymbolicName: org.reliablesource.cuttlefish.product.workbench;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Reliable Source, Inc.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-LazyStart: false
+Export-Package: org.reliablesource.cuttlefish.product.workbench;
+  uses:="org.eclipse.equinox.app,
+   org.eclipse.ui.application,
+   org.osgi.framework,
+   org.eclipse.ui.plugin,
+   org.eclipse.jface.action,
+   org.eclipse.ui"

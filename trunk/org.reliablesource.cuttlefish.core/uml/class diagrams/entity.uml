@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_WtD4cUvEEdyjSLnnoaBMCg" name="org.reliablesource.cuttlefish.core.model">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_W4HccEvFEdyjSLnnoaBMCg" name="IEntity" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VsRUYEvFEdyjSLnnoaBMCg" name="IEntityFactory" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_eO_jYEvFEdyjSLnnoaBMCg" name="internal" visibility="protected">
+    <packagedElement xmi:type="uml:Class" xmi:id="_mWTBsEvFEdyjSLnnoaBMCg" name="CuttleFishEntity" visibility="protected" isLeaf="true" isAbstract="true" redefinedClassifier="_W4HccEvFEdyjSLnnoaBMCg"/>
+  </packagedElement>
+</uml:Package>
